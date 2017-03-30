@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "C++ Launch (Windows)",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "G:/OneDrive/GitHub/OpenCourse/Algorithm-Toolbox/Week 5/test.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "G:/OneDrive/GitHub/OpenCourse/Algorithm-Toolbox/Week 5/",
+            "environment": [],
+            "externalConsole": false
+        },
+        {
+            "name": "C++ Attach (Windows)",
+            "type": "cppvsdbg",
+            "request": "attach",
+            "processId": "${command:pickProcess}"
+        }
+    ]
+}
